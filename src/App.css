@@ -1,0 +1,357 @@
+html { 
+  margin:0;padding:0;height:100%;
+ }
+body { 
+  margin:0;padding:0;height:100%;
+  font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+}
+nav {
+  display:none;
+  margin-top: 30px;
+  text-align: right;
+  
+
+}
+
+h1, h2{ 
+  font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+  font-weight: 400;
+ }
+h1 { 
+  margin-bottom: 0;
+  font-size: 30px;
+  }
+h2 { 
+
+  text-align: center;
+    font-size: 25px;
+   }
+p { 
+  font-size: 25px;
+  line-height: 40px;
+  position: relative;
+  width: 80%;
+  margin-top: 15px;
+  color: #0AA5E7;
+  font-style: italic;
+  left: 10%;
+  font-weight: 400;
+ }
+h3  { 
+  font-weight: 300;
+  text-align: center;
+  color:black;
+  font-size: 20px;
+ }
+h5 {
+  font-size: 25px;
+  color:black;
+  margin-top: 57;
+
+}
+img { 
+  vertical-align: auto;
+ }
+
+ @media screen 
+  and (min-device-width: 1200px)
+  and (min-device-height: 900px) 
+  and (max-device-width: 3000px)  { 
+    .welcome-component { 
+      height: 100%;
+      min-height: 980px;
+      
+     }
+}
+.welcome { 
+  font-weight: 300;
+ }
+ .welcome-logo {
+  height: 42.2px;
+ }
+.header-links { 
+  margin-top: 28px;
+ }
+
+.icon {
+  margin-top: 30px;
+  margin-left: 43%;
+  width:13%;
+  
+}
+.iconrow { 
+  height: 266.4px;
+ }
+.logospan { 
+  display: inline;
+  width: 120px;
+  height: 40px;
+ }
+.a-new-tool { 
+  font-weight: 300;
+ }
+
+.music-teachers-who-care {
+  margin-top: 100px; 
+  font-weight: 100;
+  font-size: 60;
+  color: rgba(0, 0, 0, 0.15);
+  padding-top: 20px;
+  }
+
+#music_teachers { 
+margin-top: 100px; 
+  font-weight: 100;
+  font-size: 60;
+  color: rgba(0, 0, 0, 0.15);
+  padding-top: 20px;
+
+ }
+/*
+
+  @HowItWorks Component classes
+
+*/
+
+.how-it-works { 
+
+  
+  background-color: rgba(63, 173, 233, 0.65); 
+ }
+.gif { 
+  
+  margin-top: 40px;
+  height: 150px;  
+  position: relative;
+  
+ }
+
+.notebook-icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  background-size: 200px 9600px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  background-color: white;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  cursor: pointer; 
+   background-image: url("./img/phone@2x.png");
+    background-color: #82C9F0; 
+    -webkit-animation: icon-animate 1.7s steps(47) infinite;
+    -moz-animation: icon-animate 1.7s steps(47) infinite;
+    animation: icon-animate 1.7s steps(47) infinite;
+}
+
+.trophy-icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  background-size: 200px 9600px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  background-color: white;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  cursor: pointer; 
+   background-image: url("./img/trophy.png");
+    background-color: #82C9F0; 
+    -webkit-animation: icon-animate 1.7s steps(47) infinite;
+    -moz-animation: icon-animate 1.7s steps(47) infinite;
+    animation: icon-animate 1.7s steps(47) infinite;
+
+}
+
+.align-center { 
+  text-align: center;
+ }
+
+ @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+    
+    .notebook-icon{ 
+        background-image: url("./img/phone@2x.png");
+    }
+
+    .trophy-icon { 
+      background-image: url("./img/trophy@2x.png");
+     }
+  } 
+
+
+@-webkit-keyframes icon-animate {
+  from {
+    background-position: center top; }
+
+  to {
+    background-position: center -9400px; } }
+
+@-moz-keyframes icon-animate {
+  from {
+    background-position: center top; }
+
+  to {
+    background-position: center -9400px; } }
+
+@keyframes icon-animate {
+  from {
+    background-position: center top; }
+
+  to {
+    background-position: center -9400px; } }    
+
+li { 
+  font-size: 18px;
+  margin-top: 10px;
+
+ }
+
+.digital-notebook-heading { 
+  margin-top: 0;
+  color: white;
+ }
+.community-heading { 
+  margin-top: 0;
+  color: white;
+  }
+.community-gif { 
+  
+  height: 160px;
+  margin-top: 30px;
+ } 
+a { 
+  cursor: pointer;
+  transition: all 1.0s ease;
+  margin-top: 8;
+  text-align: center;
+ } 
+a::before { 
+  cursor: pointer;
+  transition: all 1.0s ease;
+  opacity: 0.5;
+  content:"";
+  background:url("./img/cross.png");
+  display: block;
+  width:  32px;
+  height: 32px;
+  position: absolute;
+  left:27%;
+
+ }
+a:hover {
+  opacity: 1.0;
+}
+a:hover::before { 
+  opacity: 1.0;
+ } 
+#learn_more_community { 
+  text-decoration: none;
+  font-size:20px;
+ }
+
+#learn_more_notebook{
+  text-decoration: none;
+  font-size:20px;
+
+}
+
+/* @learn more component*/
+
+/* @Email component*/
+
+.email-input { 
+  height: 60px;
+  font-size: 22px;
+ }
+.email-input-button{ 
+  height: 60px;
+  font-size: 22px;
+ }
+/*  @Fade in animation in the welcome component classes
+*/
+
+
+.animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+/*the animation definition*/
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+
+  30% { 
+    opacity: 0
+
+   }
+  100% {
+    opacity: 1
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+
+  30% { 
+    opacity: 0
+
+   }
+  100% {
+    opacity: 1
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn
+}
+
+
+/*nav a:before { 
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #D84242;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+ }
+
+nav a { 
+  margin-left: 20px;
+  padding:2px;
+  position: relative;
+    color: #3DC6FE;
+    text-decoration: none;
+  font-size: 28px;
+ }
+nav a:hover { 
+  color: #3DC6FE;
+  text-decoration: none;
+  
+ }
+ nav a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}*/
